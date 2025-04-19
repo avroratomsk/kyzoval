@@ -1,0 +1,60 @@
+.header {
+  flex: 0 0 auto;
+
+  //.header__row
+  &__row {
+  }
+
+  //.header__action
+  &__action {
+    background-color: rgb(102, 102, 102);
+    border: 1px solid rgb(34, 34, 34);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px 0px;
+    padding: 0px 10px;
+  }
+
+  //.header__action-title
+  &__action-title {
+    font-size: 26px;
+    line-height: 150%;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+
+  //.header__action-phone
+  &__action-phone {
+  }
+
+  //.header__action-btn
+  &__action-btn {
+  }
+
+  //.header__top
+  &__top {
+  }
+
+  //.header__nav
+  &__nav {
+  }
+
+  //.header__bottom
+  &__bottom {
+  }
+
+  //.header__social
+  &__social {
+  }
+}
+
+.nav {
+
+  //.nav__list
+  &__list {
+  }
+
+  //.nav__item
+  &__item {
+  }
+
+}

@@ -1,0 +1,67 @@
+// Normalize.css
+@import '../../node_modules/normalize.css/normalize';
+// Bootstrap
+@import '../../node_modules/bootstrap/scss/bootstrap-grid';
+
+// Шрифты
+// Удалить файл fonts.scss, если произошли какие-то изменения со шрифтами
+@import 'fonts';
+
+// Переменны (цвета, скорость transition и пр)
+@import '_variables';
+
+@import '_header';
+@import '_footer';
+@import '_banner';
+@import '_catalog';
+@import '_contact';
+@import '_reviews';
+@import '_content';
+
+* {
+  outline: none;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-width: 360px;
+  overflow-x: hidden;
+  font-family: $main_font;
+  background: #999999;
+  main {
+    flex: 1 0 auto;
+    padding: 30px 0;
+  }
+}
+
+.container {
+  @media screen and (min-width: 768px) {
+    max-width: 980px !important;
+  }
+
+  @media screen and (min-width: 992px) {
+    max-width: 980px !important;
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 980px !important;
+  }
+
+  @media screen and (min-width: 1400px) {
+    max-width: 980px !important;
+  }
+}
