@@ -1,0 +1,25 @@
+.catalog-page {
+
+  &__row{
+    padding: 20px 0px;
+  }
+
+  h2 {
+    line-height: 150%;
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background: #222222;
+    border-radius: 5px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 20px;
+  }
+}
