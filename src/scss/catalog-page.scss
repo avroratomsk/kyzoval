@@ -15,11 +15,18 @@
     color: #ffffff;
     text-align: center;
     margin-bottom: 20px;
+    font-family: serif;
   }
 
   &__grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
     gap: 20px;
+  }
+
+  .my-image-links {
+    img {
+      max-width: 100%;
+    }
   }
 }
