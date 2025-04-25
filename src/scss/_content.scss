@@ -11,7 +11,7 @@
       font-size: 25px;
     }
 
-    video {
+    video, iframe {
       width: 450px;
       height: 450px;
       object-fit: cover;
@@ -24,6 +24,7 @@
     justify-content: center;
     margin-top: 40px;
     gap: 30px;
+    padding-bottom: 40px;
 
     a {
       box-shadow: 0 1px 4px rgba(0, 0, 0, .6);

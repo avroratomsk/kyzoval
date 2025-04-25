@@ -1,5 +1,9 @@
 .catalog {
 
+  &__top {
+    margin-top: 30px;
+  }
+
   .container {
 
   }
@@ -68,6 +72,15 @@
     }
   }
 
+  &__image-height {
+    height: 100% !important;
+
+    &::before {
+      content: "";
+      height: 100% !important;
+    }
+  }
+
   &__link {
     box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
     background: linear-gradient(to bottom, #2a2a2a 0%, #5c5c5c 100%);
@@ -101,6 +114,14 @@
     margin: 20px 0px 10px;
     padding: 16px 0px;
     text-align: center;
+    transition: $animation_speed;
+
+    @media(hover: hover) {
+      &:hover {
+        background: #002e5d;
+
+      }
+    }
   }
 
   &__item {
@@ -110,5 +131,8 @@
     color: #ffffff;
     text-decoration: none;
     font-weight: 600;
+
   }
+
+
 }

@@ -31,6 +31,10 @@
     border-radius: 5px;
     background: #222222;
     font-size: 35px;
+
+    @media screen and (max-width: 992px) {
+      display: none;
+    }
   }
 
   //.header__action
@@ -210,6 +214,7 @@
     min-width: 290px;
     width: 100%;
     background: #222222;
+    z-index: 99;
   }
 
   &.active {

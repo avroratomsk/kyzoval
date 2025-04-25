@@ -4,6 +4,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
     gap: 0px 5px;
+    margin-top: 30px;
   }
 
   &__item {
@@ -18,11 +19,27 @@
       align-self: flex-end;
     }
   }
+
   .left {
     border-left: none;
   }
 
   .bottom {
     border-bottom: none;
+  }
+
+  &__banner-text {
+    max-width: 600px;
+    margin: 30px auto 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    padding: 0px 15px;
+    font-family: serif;
+    height: 58px;
+    border-radius: 5px;
+    background: #222222;
+    font-size: 35px;
   }
 }
